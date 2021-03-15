@@ -1,10 +1,8 @@
-package com.company;
-
-import com.company.model.MatchUp;
-import com.company.model.Team;
-import com.company.model.TeamLookup;
-import com.company.utils.FiveThirtyEightDataReader;
-import com.company.utils.TournamentExecutor;
+import model.MatchUp;
+import model.Team;
+import model.TeamLookup;
+import utils.FiveThirtyEightDataReader;
+import utils.TournamentExecutor;
 
 import java.util.ArrayList;
 import java.util.List;

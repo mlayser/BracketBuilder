@@ -1,7 +1,7 @@
-package com.company.utils;
+package utils;
 
-import com.company.model.MatchUp;
-import com.company.model.Team;
+import model.MatchUp;
+import model.Team;
 
 import java.util.ArrayList;
 import java.util.List;

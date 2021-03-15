@@ -1,6 +1,6 @@
-package com.company.utils;
+package utils;
 
-import com.company.model.Team;
+import model.Team;
 import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVRecord;
 
@@ -23,7 +23,7 @@ public class FiveThirtyEightDataReader {
         List<Team> teams = new ArrayList<>();
         Reader in = null;
         try {
-            in = new FileReader("src/main/java/com/company/utils/fivethirtyeight_ncaa_forecasts.csv");
+            in = new FileReader("src/main/java/utils/fivethirtyeight_ncaa_forecasts.csv");
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }

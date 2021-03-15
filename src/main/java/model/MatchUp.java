@@ -1,6 +1,4 @@
-package com.company.model;
-
-import java.util.InputMismatchException;
+package model;
 
 /**
  * Created by matthewlayser on 3/15/17.

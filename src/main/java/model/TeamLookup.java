@@ -1,4 +1,4 @@
-package com.company.model;
+package model;
 
 import java.util.HashMap;
 import java.util.List;
